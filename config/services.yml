@@ -1,0 +1,7 @@
+services:
+    rmcgirr83.noquoteintopic.listener:
+        class: rmcgirr83\noquoteintopic\event\listener
+        arguments:
+            - @user
+        tags:
+            - { name: event.listener }

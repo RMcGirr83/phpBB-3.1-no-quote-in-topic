@@ -1,0 +1,27 @@
+{
+	"name": "rmcgirr83/noquoteintopic",
+	"type": "phpbb-extension",
+	"description": "This extension will disallow the quoting of posts",
+	"version": "1.0.0",
+	"time": "2016-01-01",
+	"keywords": ["phpbb", "extension", "no quote"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Rich McGirr",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"require-dev": {
+		"phpbb/epv": "dev-master"
+	},
+	"extra": {
+		"display-name": "No Quote In Topic",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.3-RC1"
+		}
+	}
+}
