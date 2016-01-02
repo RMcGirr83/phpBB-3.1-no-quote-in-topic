@@ -102,7 +102,7 @@ class listener implements EventSubscriberInterface
 		$admin_mod_array = array_unique(array_merge($admin_ary, $mod_ary));
 		if (sizeof($admin_mod_array))
 		{
-			if(in_array($this->user->data['user_id'], $admin_mod_array))
+			if (in_array($this->user->data['user_id'], $admin_mod_array))
 			{
 				return true;
 			}
