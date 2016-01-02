@@ -1,7 +1,7 @@
 {
 	"name": "rmcgirr83/noquoteintopic",
 	"type": "phpbb-extension",
-	"description": "This extension will disallow the quoting of posts",
+	"description": "This extension will disallow the quoting of posts. There is a constant set in the listener file to allow the extension to ignore admins and mods.  Read the listener file to de-activate as this extension will ignore admins and mods.",
 	"version": "1.0.0",
 	"time": "2016-01-01",
 	"keywords": ["phpbb", "extension", "no quote"],
