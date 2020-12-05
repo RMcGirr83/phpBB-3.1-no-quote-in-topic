@@ -3,7 +3,6 @@ phpbb-3.1-no-quote-in-topic
 
 phpBB 3.1 extension will disallow the quoting of posts.  There is a constant set in the listener file to allow the extension to ignore admins and mods.  Read the listener file to de-activate as this extension will ignore admins and mods.
 
-[![Build Status](https://travis-ci.org/rmcgirr83/phpBB-3.1-no-quote-in-topic.svg?branch=master)](https://travis-ci.org/rmcgirr83/phpBB-3.1-no-quote-in-topic)
 ## Installation
 
 ### 1. clone
